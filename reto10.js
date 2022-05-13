@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var reto8_1 = require("./reto8");
+var reto9_1 = require("./reto9");
+var suma1 = (0, reto8_1.sumaCaracteres)(["Casa", "Coche", "Ciudad", "Cesta"]);
+var suma2 = (0, reto8_1.sumaCaracteres)(["Barco", "Baca", "Bicicleta", "Bisiesto", "Brasil"]);
+var suma3 = (0, reto8_1.sumaCaracteres)(["Venezuela", "Veneno", "Voltaje"]);
+var esPar1 = (0, reto9_1.esPar)(suma1);
+var esPar2 = (0, reto9_1.esPar)(suma2);
+var esPar3 = (0, reto9_1.esPar)(suma3);
+console.log(esPar1);
+console.log(esPar2);
+console.log(esPar3);
