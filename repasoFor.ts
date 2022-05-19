@@ -32,26 +32,25 @@ function calculoImpares (numeros:number):number{
 
        let losColores = ["Rojo","Naranja","Amarillo","Verde","Azul","Índigo","Violeta"]
        
-       for(let i = 0; i < array.length; i++ ){
-           for(let j = 0; j <losColores.length;j++){
-            if(array[i] == losColores[j]){            
+       for(let i = 0; i < array.length; i++ ){           
+            if(array[i] == "Rojo" || array[i] == "Rojo" || array[i] == "Naranja" || array[i] == "Amarillo" || array[i] == "Verde" || array[i] == "Azul" || array[i] == "Índigo" || array[i] == "Violeta" ){            
             console.log(losColores[j] + " SI está entre los colores del arcoiris")                            
                   }
               }
           } 
-       }
+       
 
 //Reto 6
 
-function calculoPares (numeros:number[]):number{
+function calculoPares (numeros:number[]):void{
     
-    let pares:number;
+    
     
         for(let i=0; i < numeros.length ; i++){
             if(numeros[i] % 2 == 0){
-            console.log(numeros[i] + " es un número par");
-            }
-        }return pares
+            
+            }console.log(true);
+        }
     }    
 
 //Reto 8
